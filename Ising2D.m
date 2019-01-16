@@ -1,4 +1,4 @@
-% This is a programme for one dimensional Ising model based on Metropolis algorithm which 
+% This is a programme for two dimensional Ising model based on Metropolis algorithm which 
 % is described by "Newman, M., & Barkema, G. (1999). Monte carlo methods in statistical 
 % physics chapter 1-4. Oxford University Press: New York, USA."
 % This algorithm is based on single-spin-flip dynamics.
@@ -9,7 +9,7 @@ t = 1e+7 ; % Time steps
 M = 100 ; % The row of lattice
 N = 100 ; % The column of lattice 
 T = 2.4 ; % The temperature of Ising model
-k = 1 ; % Boltzmann¡¯s constant
+k = 1 ; % BoltzmannÂ¡Â¯s constant
 J = 1 ; % Local interaction
 B = 0 ; % Global effect
 beta = 1/(k*T) ;
